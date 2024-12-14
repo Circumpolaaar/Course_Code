@@ -1,0 +1,9 @@
+ 
+InputStream in=new FileInputStream(f);
+
+ObjectInputStream input=new ObjectInputStream(in);
+
+Object obj=input.readObject();
+System.out.println(obj);
+input.close();
+in.close();
