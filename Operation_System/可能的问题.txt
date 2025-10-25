@@ -1,0 +1,4 @@
+lab3
+env_alloc 3.4-1，3.4-3没有判断空
+load_mapper没if
+env_run 3.8-2
